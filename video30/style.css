@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    height: 50vh;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+.box1{
+    background: blue;
+}
+.box2{
+    background: red;
+}
+.box3{
+    background: green;
+}
+.box4{
+    background: yellow;
+}
+.box5{
+    background: purple;
+}
+.box6{
+    background: orange;
+}
+
+.fuentes{
+    font-family: "Playwrite US Trad Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
