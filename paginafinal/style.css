@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navegador-1{
+    background: linear-gradient(to right, red, blue);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navegador-1-iz{
+    width: 85%;
+}
+
+.navegador-1-iz a{
+    color: white;
+    text-decoration: none;
+    border-right: 2px solid white;
+    padding: 0px 10px;
+}
+
+.navegador-1-de{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+}
+
+@media (max-width: 1260px){
+    .navegador-1-de{
+        width: 190px;
+    }
+}
+
+.login{
+    display: none;
+}
+
+@media (max-width: 880px){
+    .navegador-1{
+        height: 5px;
+    }
+
+    .navegador-1-de{
+        display: none;
+    }
+
+    .navegador-1-iz{
+        display: none;
+    }
+        .links-nav-2-de{
+        display: none;
+    }
+    .login{
+        display: block;
+    }
+}
+
+.logo-nike{
+    width: 60px;
+}
+.logo-betsson{
+    width: 70px;
+}
+.logo-postobon{
+    width: 60px;
+}
+
+.contenedor-navegador-2{
+    background: #fff;
+}
+
+.navegador-2{
+    width: 98%;
+    display: flex;
+    margin: 0 1.8%;
+    height: 130px;
+    align-items: center;
+}
+
+.navegador-2-iz{
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+
+.navegador-2-de{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 55%;
+}
+
+.navegador-2-de a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.links-nav-2{
+    display: flex;
+    align-items: center;
+}
+
+.links-nav-2 a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    border-right: 2px solid rgba(0, 0, 0, 0);
+    margin-right: 20px;
+}
+
+.links-nav-2 a:hover{
+    cursor: pointer;
+    border-right: 2px solid black;
+}
+
+.logo-barcelona{
+    width: 120px;
+}
+
+.fa-solid{
+    margin-right: 8px;
+}
+
+.fa-bars{
+    font-size: 30px;
+    color: black;
+}
+
+.fa-people-group{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu-link {
+  font-family: sans-serif;
+}
+
+.menu-item{
+  position: relative;
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  padding: 10px 20px;
+  list-style: none;
+  display: none;
+  width: 220px;
+}
+
+.submenu::before {
+  position: absolute;
+}
+
+.menu-item:hover .submenu {
+  display: block;
+}
+
+.submenu a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+
+.nav-hamburguesa {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.menu-hamburguesa {
+    display: none;
+}
+
+.list_icon{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.label-hamburguesa {
+    cursor: pointer;
+}
+
+.lista-menu-hamburguesa {
+    display: none;
+    position: absolute;
+    top: 84px;
+    left: -155px;
+    background-color: black;
+    overflow: hidden;
+    z-index: 1000;
+    width: 350px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.links-lista{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.bloque summary {           
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background: white;
+  font-weight: bold;
+}
+
+.bloque summary::-webkit-details-marker {
+  display: none;
+}
+
+.bloque summary::after {
+  content: "▾";                
+  font-size: 30px;
+}
+
+.bloque[open] summary::after {
+  content: "▴";                  
+}
+
+.bloque a{
+    color: rgb(65, 65, 65);
+    padding: 5px 0;
+    display: block;
+}
+
+.links-lista a{
+    text-decoration: none;
+}
+
+#menu-hamburguesa:checked ~ .lista-menu-hamburguesa {
+    display: block;
+}
+
+.linea-color{
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, red, blue);
+}
+
+
+@media (max-width: 640px){
+    .links-nav-2{
+        display: none;
+    }
+    .nav-hamburguesa{
+        order: 1;
+    }
+    .logo-barcelona{
+        order: 2;
+        margin: 0 auto;
+    }
+    .navegador-2-iz{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .navegador-2-de{
+        width: 10%;
+    }
+    .lista-menu-hamburguesa{
+        left: -20px;
+    }
+}
+
+body{
+    background: black;
+}
+
+
+
