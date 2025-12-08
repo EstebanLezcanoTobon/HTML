@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navegador-1{
+.navegador-1 {
     background: linear-gradient(to right, red, blue);
     height: 60px;
     width: 100%;
@@ -17,69 +17,73 @@
     font-style: normal;
 }
 
-.navegador-1-iz{
+.navegador-1-iz {
     width: 85%;
 }
 
-.navegador-1-iz a{
+.navegador-1-iz a {
     color: white;
     text-decoration: none;
     border-right: 2px solid white;
     padding: 0px 10px;
 }
 
-.navegador-1-de{
+.navegador-1-de {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 15%;
 }
 
-@media (max-width: 1260px){
-    .navegador-1-de{
+@media (max-width: 1260px) {
+    .navegador-1-de {
         width: 190px;
     }
 }
 
-.login{
+.login {
     display: none;
 }
 
-@media (max-width: 880px){
-    .navegador-1{
+@media (max-width: 880px) {
+    .navegador-1 {
         height: 5px;
     }
 
-    .navegador-1-de{
+    .navegador-1-de {
         display: none;
     }
 
-    .navegador-1-iz{
+    .navegador-1-iz {
         display: none;
     }
-        .links-nav-2-de{
+
+    .links-nav-2-de {
         display: none;
     }
-    .login{
+
+    .login {
         display: block;
     }
 }
 
-.logo-nike{
-    width: 60px;
-}
-.logo-betsson{
-    width: 70px;
-}
-.logo-postobon{
+.logo-nike {
     width: 60px;
 }
 
-.contenedor-navegador-2{
+.logo-betsson {
+    width: 70px;
+}
+
+.logo-postobon {
+    width: 60px;
+}
+
+.contenedor-navegador-2 {
     background: #fff;
 }
 
-.navegador-2{
+.navegador-2 {
     width: 98%;
     display: flex;
     margin: 0 1.8%;
@@ -87,32 +91,32 @@
     align-items: center;
 }
 
-.navegador-2-iz{
+.navegador-2-iz {
     display: flex;
     align-items: center;
     width: 45%;
 }
 
-.navegador-2-de{
+.navegador-2-de {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: 55%;
 }
 
-.navegador-2-de a{
+.navegador-2-de a {
     color: black;
     text-decoration: none;
     margin-left: 15px;
     font-size: 20px;
 }
 
-.links-nav-2{
+.links-nav-2 {
     display: flex;
     align-items: center;
 }
 
-.links-nav-2 a{
+.links-nav-2 a {
     text-decoration: none;
     color: black;
     padding: 5px 10px;
@@ -121,66 +125,66 @@
     margin-right: 20px;
 }
 
-.links-nav-2 a:hover{
+.links-nav-2 a:hover {
     cursor: pointer;
     border-right: 2px solid black;
 }
 
-.logo-barcelona{
+.logo-barcelona {
     width: 120px;
 }
 
-.fa-solid{
+.fa-solid {
     margin-right: 8px;
 }
 
-.fa-bars{
+.fa-bars {
     font-size: 30px;
     color: black;
 }
 
-.fa-people-group{
+.fa-people-group {
     font-size: 20px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .menu {
-  list-style: none;
+    list-style: none;
 }
 
 .menu-link {
-  font-family: sans-serif;
+    font-family: sans-serif;
 }
 
-.menu-item{
-  position: relative;
+.menu-item {
+    position: relative;
 }
 
 .submenu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #ffffff;
-  padding: 10px 20px;
-  list-style: none;
-  display: none;
-  width: 220px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    padding: 10px 20px;
+    list-style: none;
+    display: none;
+    width: 220px;
 }
 
 .submenu::before {
-  position: absolute;
+    position: absolute;
 }
 
 .menu-item:hover .submenu {
-  display: block;
+    display: block;
 }
 
 .submenu a {
-  display: block;
-  color: black;
-  text-decoration: none;
-  font-family: sans-serif;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 
@@ -194,7 +198,7 @@
     display: none;
 }
 
-.list_icon{
+.list_icon {
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -214,7 +218,8 @@
     width: 350px;
     font-family: "Roboto Condensed", sans-serif;
 }
-.links-lista{
+
+.links-lista {
     width: 100%;
     background-color: white;
     display: flex;
@@ -223,95 +228,96 @@
     padding-left: 30px;
 }
 
-.bloque summary {           
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  background: white;
-  font-weight: bold;
+.bloque summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background: white;
+    font-weight: bold;
 }
 
 .bloque summary::-webkit-details-marker {
-  display: none;
+    display: none;
 }
 
 .bloque summary::after {
-  content: "▾";                
-  font-size: 30px;
+    content: "▾";
+    font-size: 30px;
 }
 
 .bloque[open] summary::after {
-  content: "▴";                  
+    content: "▴";
 }
 
-.bloque a{
+.bloque a {
     color: rgb(65, 65, 65);
     padding: 5px 0;
     display: block;
 }
 
-.links-lista a{
+.links-lista a {
     text-decoration: none;
 }
 
-#menu-hamburguesa:checked ~ .lista-menu-hamburguesa {
+#menu-hamburguesa:checked~.lista-menu-hamburguesa {
     display: block;
 }
 
-.linea-color{
+.linea-color {
     width: 100%;
     height: 4px;
     background: linear-gradient(to right, red, blue);
 }
 
 
-@media (max-width: 640px){
-    .links-nav-2{
+@media (max-width: 640px) {
+    .links-nav-2 {
         display: none;
     }
-    .nav-hamburguesa{
+
+    .nav-hamburguesa {
         order: 1;
     }
-    .logo-barcelona{
+
+    .logo-barcelona {
         order: 2;
         margin: 0 auto;
     }
-    .navegador-2-iz{
+
+    .navegador-2-iz {
         display: flex;
         justify-content: space-between;
         width: 90%;
     }
-    .navegador-2-de{
+
+    .navegador-2-de {
         width: 10%;
     }
-    .lista-menu-hamburguesa{
+
+    .lista-menu-hamburguesa {
         left: -20px;
     }
 }
 
-body{
-    background: black;
-}
-
-.contenedor-video{
+.contenedor-video {
     width: 100%;
     height: 100vh;
 }
 
-.contenedor-video iframe{
+.contenedor-video iframe {
     width: 100%;
     height: 100%;
 }
 
-.centrar-contenedor-cartas{
+.centrar-contenedor-cartas {
     width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
-.contenedor-cartas{
+.contenedor-cartas {
     background: white;
     margin-top: -50px;
     width: 70%;
@@ -319,7 +325,7 @@ body{
     display: flex;
 }
 
-.ultimos-partidos{
+.ultimos-partidos {
     background-color: #231F20;
     margin: 31px;
     border-radius: 10px;
@@ -328,7 +334,7 @@ body{
     width: 45%;
 }
 
-.ultimos-partidos h3{
+.ultimos-partidos h3 {
     text-align: center;
     font-size: 2rem;
     font-family: "Roboto Condensed", sans-serif;
@@ -337,18 +343,20 @@ body{
     text-transform: uppercase;
 }
 
-.fechas{
+.fechas {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.fecha-1, .fecha-2{
+.fecha-1,
+.fecha-2 {
     padding: 28px;
     width: 50%;
 }
 
-.titulo-fecha-1, .titulo-fecha-2{
+.titulo-fecha-1,
+.titulo-fecha-2 {
     font-size: 1rem;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: bold;
@@ -357,29 +365,30 @@ body{
     margin-bottom: 20px;
 }
 
-.equipo-1, .equipo-2{
+.equipo-1,
+.equipo-2 {
     display: flex;
     width: 100%;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.logo-barcelona-card{
+.logo-barcelona-card {
     width: 40px;
     display: flex;
     align-items: center;
 }
 
-.logo-junior-card{
+.logo-junior-card {
     width: 40px;
 }
 
-.logo-junior-card img{
+.logo-junior-card img {
     width: 100%;
 }
 
 
-.nombre-logo{
+.nombre-logo {
     font-size: 1rem;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 500;
@@ -390,13 +399,13 @@ body{
     align-items: center;
 }
 
-.resultado{
+.resultado {
     display: flex;
     justify-content: center;
-   align-items: center;
+    align-items: center;
 }
 
-.pocisiones{
+.pocisiones {
     background: #231F20;
     margin: 31px;
     border-radius: 10px;
@@ -409,24 +418,24 @@ body{
     text-transform: uppercase;
 }
 
-.tabla-pocisiones{
+.tabla-pocisiones {
     table-layout: auto;
     width: 100%;
     border-collapse: separate;
-    border-spacing: 0 10px; 
+    border-spacing: 0 10px;
 }
 
-tr{
+tr {
     text-align: center;
     width: 100%;
 }
 
-tr :nth-child(2){
+tr :nth-child(2) {
     text-align: left;
     padding-left: 10px;
 }
 
-.boton-pocision{
+.boton-pocision {
     margin-top: 20px;
     display: flex;
     width: 100%;
@@ -434,7 +443,7 @@ tr :nth-child(2){
     align-items: center;
 }
 
-.boton-pocision a{
+.boton-pocision a {
     width: 60%;
     background: red;
     text-decoration: none;
@@ -447,19 +456,19 @@ tr :nth-child(2){
     border-radius: 5px;
 }
 
-.titulo{
+.titulo {
     font-size: 1.6em;
     font-weight: 900;
     display: flex;
     justify-content: center;
 }
 
-th{
+th {
     color: #505050;
     padding: 5px;
 }
 
-.liga{
+.liga {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -468,7 +477,7 @@ th{
     font-size: 120%;
 }
 
-.reclacificacion{
+.reclacificacion {
     background: #231F20;
     margin: 31px;
     border-radius: 10px;
@@ -481,13 +490,13 @@ th{
     text-transform: uppercase;
 }
 
-.tablas-centrar{
+.tablas-centrar {
     display: flex;
     width: 50%;
 }
 
 
-.contenedor-proximos-partidos{
+.contenedor-proximos-partidos {
     width: 100%;
     margin-top: 50px;
     height: 450px;
@@ -497,7 +506,7 @@ th{
     padding-bottom: 10px
 }
 
-.proximos-partidos{
+.proximos-partidos {
     width: 70%;
     background: white;
     height: 100%;
@@ -512,7 +521,7 @@ th{
     background-color: #231F20;
 }
 
-.titulo-partidos{
+.titulo-partidos {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -520,7 +529,7 @@ th{
     text-transform: uppercase;
 }
 
-.info-proximos-partidos{
+.info-proximos-partidos {
     width: 50%;
     height: 100%;
     display: flex;
@@ -530,7 +539,9 @@ th{
     padding: 60px 0;
 }
 
-.barcelona-proximo-partido, .medellin-proximo-partido, .vs{
+.barcelona-proximo-partido,
+.medellin-proximo-partido,
+.vs {
     width: 58px;
     height: 58px;
     display: flex;
@@ -542,7 +553,8 @@ th{
     font-size: 1rem;
 }
 
-.barcelona-proximo-partido-p, .medellin-proximo-partido-p{
+.barcelona-proximo-partido-p,
+.medellin-proximo-partido-p {
     width: 86.6px;
     display: flex;
     flex-direction: column;
@@ -554,34 +566,35 @@ th{
     font-size: 1.8rem;
 }
 
-.equipos-proximos-partidos{
+.equipos-proximos-partidos {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 260px;
 }
 
-.nombre-equipo{
+.nombre-equipo {
     font-size: 1rem;
     margin-top: 20px;
 }
 
-.liga-proximos-partidos{
+.liga-proximos-partidos {
     width: 128px;
 }
-.liga-proximos-partidos img{
+
+.liga-proximos-partidos img {
     width: 100%;
 }
 
-.fecha-proximos-partidos{
+.fecha-proximos-partidos {
     font-size: 1rem;
 }
 
-.fondo-lineas{
+.fondo-lineas {
     background-image: url(img/fondo-1-1.jpg);
 }
 
-.centrar-noticias{
+.centrar-noticias {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -590,12 +603,12 @@ th{
     flex-direction: column;
 }
 
-.contenedor-ultimas-noticias{
+.contenedor-ultimas-noticias {
     width: 70%;
     margin-top: 30px;
 }
 
-.titulo-noticias{
+.titulo-noticias {
     width: 100%;
     font-size: 1.7em;
     text-transform: uppercase;
@@ -603,7 +616,7 @@ th{
     font-family: "Roboto Condensed", sans-serif;
 }
 
-.ultimas-noticias{
+.ultimas-noticias {
     width: 100%;
     box-shadow: #a3a3a3 4px 4px 10px;
     height: 370px;
@@ -612,13 +625,13 @@ th{
     display: flex;
 }
 
-.regalos-navidad{
+.regalos-navidad {
     width: 75%;
     display: flex;
     height: 370px;
 }
 
-.texto-regalos-navidad{
+.texto-regalos-navidad {
     width: 40%;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -630,7 +643,7 @@ th{
     padding: 25px;
 }
 
-.texto-regalos-navidad a{
+.texto-regalos-navidad a {
     text-decoration: none;
     color: white;
     background-color: red;
@@ -643,84 +656,621 @@ th{
     border-radius: 10px;
 }
 
-.imagen-regalos-navidad{
+.imagen-regalos-navidad {
     width: 60%;
     overflow: hidden;
 }
 
-.imagen-regalos-navidad img{
+.imagen-regalos-navidad img {
     width: 100%;
     object-fit: cover;
     object-position: center;
     margin-top: -120px;
 }
 
-.imagen-regalos-navidad-2{
+.imagen-regalos-navidad-2 {
     overflow: hidden;
     width: 30%;
     padding-left: 15px;
 }
-.imagen-regalos-navidad-2 img{
+
+.imagen-regalos-navidad-2 img {
     width: 100%;
     margin-top: -120px;
     object-fit: cover;
     object-position: center;
 }
 
+.noticias-mini {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.noticia-1 {
+    width: 32%;
+    height: 100%;
+    box-shadow: #a3a3a300 4px 4px 10px;
+    border-radius: 5px;
+    display: flex;
+    margin-right: 2%;
+}
+
+.noticia-2 {
+    width: 32%;
+    height: 100%;
+    box-shadow: #a3a3a300 4px 4px 10px;
+    border-radius: 5px;
+    display: flex;
+    margin-right: 2%;
+}
+
+.noticia-3 {
+    width: 32%;
+    height: 100%;
+    box-shadow: #a3a3a300 4px 4px 10px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.noticia-1:hover,
+.noticia-2:hover,
+.noticia-3:hover {
+    box-shadow: #a3a3a3 4px 4px 10px;
+}
+
+.noticia-1-texto {
+    width: 60%;
+}
+
+.parrafo-noticia-1 {
+    color: black;
+    width: 100%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: .8em;
+    padding: 5px;
+    border-left: red 2px solid;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton-leer-noticia {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 50%;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.boton-leer-noticia a {
+    background-color: red;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noticia-1-img {
+    background-image: url(img/copa-del-rey.webp);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    display: flex;
+    align-items: end;
+    margin-right: 10px;
+}
+
+.noticia-2-img {
+    background-image: url(img/_MGA0079.webp);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    display: flex;
+    align-items: end;
+    margin-right: 10px;
+}
+
+.noticia-3-img {
+    background-image: url(img/_MGA9321.webp);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    display: flex;
+    align-items: end;
+    margin-right: 10px;
+}
+
+.fecha-noticia-img {
+    background-color: red;
+    height: 20px;
+    margin-left: -10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 15px;
+}
+
+.centrar-contenedor-slider-camisas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.contenedor-slider-camisas {
+    width: 70%;
+    overflow: hidden;
+}
+
+.slider-camisas {
+    display: flex;
+    animation: slider 30s linear infinite;
+}
+
+@keyframes slider {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.slider {
+    min-width: 16.666%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.slider:hover img {
+    transform: scale(1.05);
+}
+
+.descripcion-slider-camisas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #231F20;
+    color: white;
+    padding: 20px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.slider:hover .descripcion-slider-camisas {
+    transform: translateY(0);
+}
+
+.contenedor-conferencia-prensa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-conferencia {
+    width: 70%;
+    margin-top: 30px;
+    font-size: 1.7em;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.conferencia-prensa {
+    display: flex;
+    margin-top: 30px;
+    width: 70%;
+}
+
+.contenedor-1-prensa,
+.contenedor-2-prensa {
+    width: 50%;
+    display: flex;
+}
+
+
+
+.prensa-1 {
+    width: 50%;
+    margin-right: 1.5%;
+    background-color: #231F20;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.prensa-1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.prensa-4 {
+    width: 50%;
+    background-color: #231F20;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.prensa-4 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.texto-conferencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-conferencia .descripcion {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    border-left: red solid 2px;
+    padding: 0 0 0 10px;
+}
+
+.enlace-conferencia {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.enlace-conferencia a {
+    background-color: red;
+    width: 50%;
+    padding: 5px 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.enlace-conferencia a .fa-right-long {
+    margin-left: 5px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, red, blue);
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.redes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2em;
+    margin: 30px;
+    color: white;
+    background: linear-gradient(to right, red, blue);
+    z-index: 1000;
+}
+
+.redes h3 {
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.redes a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+
+}
+
+.recorte {
+    width: 100%;
+}
+
+.recorte img {
+    width: 100%;
+}
+
+.patrocinadores {
+    width: 100%;
+    height: auto;
+    background-image: url(img/recorte.png);
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.patrocinadores h3 {
+    margin-bottom: 20px;
+    font-size: 1.7em;
+    font-weight: 900;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.principales {
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.oficiales {
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.main-sponsor {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 900;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.betsson {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.betsson img {
+    width: 100%;
+}
+
+.postobon {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnical-sponsor {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 900;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+}
+
+.nike {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oficial-partners {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 900;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.tvs {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tvs img {
+    width: 100%;
+}
+
+.jfk {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jfk img {
+    width: 100%;
+}
+
+.mundo-unico {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 900;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.mundo-unico img {
+    width: 100%;
+}
+
 
 @media (max-width: 1700px) {
-    .contenedor-cartas{
+    .contenedor-cartas {
         width: 80%;
     }
-    .proximos-partidos{
+
+    .proximos-partidos {
         width: 80%;
     }
-    .contenedor-ultimas-noticias{
+
+    .contenedor-ultimas-noticias {
+        width: 80%;
+    }
+
+    .noticias-mini {
+        width: 80%;
+    }
+
+    .contenedor-slider-camisas {
+        width: 80%
+    }
+
+    .conferencia-prensa {
+        width: 80%;
+    }
+
+    .principales {
+        width: 80%;
+        margin-bottom: 60px;
+    }
+
+    .oficiales {
         width: 80%;
     }
 }
 
 @media (max-width: 1500px) {
-    .contenedor-cartas{
+    .contenedor-cartas {
         width: 90%;
     }
-    .proximos-partidos{
+
+    .proximos-partidos {
         width: 90%;
     }
-     .contenedor-ultimas-noticias{
+
+    .contenedor-ultimas-noticias {
+        width: 90%;
+    }
+
+    .noticias-mini {
+        width: 90%;
+    }
+
+    .contenedor-slider-camisas {
+        width: 90%
+    }
+
+    .conferencia-prensa {
         width: 90%;
     }
 }
 
 @media (max-width: 1350px) {
-    .contenedor-cartas{
+    .contenedor-cartas {
         width: 95%;
     }
-    .proximos-partidos{
+
+    .proximos-partidos {
         width: 95%;
     }
-     .contenedor-ultimas-noticias{
+
+    .contenedor-ultimas-noticias {
+        width: 95%;
+    }
+
+    .noticias-mini {
+        width: 95%;
+    }
+
+    .contenedor-slider-camisas {
+        width: 95%
+    }
+
+    .conferencia-prensa {
         width: 95%;
     }
 }
 
 @media (max-width: 1280px) {
-    .contenedor-cartas{
+    .contenedor-cartas {
         width: 95%;
         display: block;
         align-items: center;
     }
-    .ultimos-partidos{
+
+    .ultimos-partidos {
         width: auto;
     }
-    .tablas-centrar{
+
+    .tablas-centrar {
         width: 100%;
     }
-    
+
 }
 
-@media (max-width: 1280px){
-    .proximos-partidos{
+@media (max-width: 1280px) {
+    .proximos-partidos {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -728,24 +1278,110 @@ th{
     }
 }
 
-@media (max-width: 1100px) {
-    .imagen-regalos-navidad-2 img{
-        margin-top: 0;
+@media (max-width: 1200px) {
+    .noticias-mini {
+        flex-direction: column;
+        height: auto;
     }
-    .texto-regalos-navidad a{
+
+    .noticia-1-img,
+    .noticia-2-img,
+    .noticia-3-img {
+        height: 150px;
+    }
+
+    .noticia-1,
+    .noticia-2,
+    .noticia-3 {
+        margin: 0;
         width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .principales {
+        width: 90%;
+    }
+
+    .oficiales {
+        width: 90%;
     }
 }
 
-@media (max-width: 800px){
-    .ultimas-noticias{
+@media (max-width: 1100px) {
+    .imagen-regalos-navidad-2 img {
+        margin-top: 0;
+    }
+
+    .texto-regalos-navidad a {
+        width: 80%;
+    }
+
+    .contenedor-video {
+        height: 80vh;
+    }
+
+    .slider {
+        min-width: 24.999%;
+    }
+
+    .contenedor-1-prensa,
+    .contenedor-2-prensa {
+        flex-direction: column;
+        width: 50%;
+        height: auto;
+    }
+
+    .prensa-1,
+    .prensa-4 {
+        width: 99%;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .tvs img {
+        width: 80%;
+    }
+
+    .jfk img {
+        width: 80%;
+    }
+
+    .betsson img {
+        width: 80%;
+    }
+
+    .postobon img{
+        width: 80%;
+    }
+    
+    .nike img{
+        width: 80%;
+    }
+    .main-sponsor{
+        font-size: .7em;
+    }
+    .tecnical-sponsor{
+        font-size: .7em;
+    }
+    .oficial-partners{
+        font-size: .7em;
+    }
+    
+
+}
+
+@media (max-width: 800px) {
+    .ultimas-noticias {
         display: block;
         height: auto;
     }
-    .regalos-navidad{
+
+    .regalos-navidad {
         width: 100%;
     }
-    .imagen-regalos-navidad-2{
+
+    .imagen-regalos-navidad-2 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -753,7 +1389,8 @@ th{
         margin-top: 20px;
 
     }
-    .imagen-regalos-navidad-2 img{
+
+    .imagen-regalos-navidad-2 img {
         width: 100%;
         box-shadow: 2px 2px 10px #505050;
         height: 370px;
@@ -761,36 +1398,72 @@ th{
 }
 
 @media (max-width: 670px) {
-    .tablas-centrar{
+    .tablas-centrar {
         display: block;
     }
-    .pocisiones{
+
+    .pocisiones {
         width: auto;
     }
 
-    .reclacificacion{
+    .reclacificacion {
         width: auto;
     }
 }
 
-@media (max-width: 590px){
-    .regalos-navidad{
+@media (max-width: 590px) {
+    .regalos-navidad {
         display: flex;
         flex-direction: column;
     }
-    .texto-regalos-navidad{
+
+    .texto-regalos-navidad {
         order: 2;
         width: 100%;
     }
-    .texto-regalos-navidad a{
+
+    .texto-regalos-navidad a {
         width: 100%;
     }
-    .imagen-regalos-navidad{
+
+    .imagen-regalos-navidad {
         order: 1;
         width: 100%;
         height: 50%;
     }
-    .imagen-regalos-navidad-2 img{
+
+    .imagen-regalos-navidad-2 img {
+        width: 100%;
+    }
+
+    .noticia-1,
+    .noticia-2,
+    .noticia-3 {
+        width: 95%;
+    }
+
+    .contenedor-video {
+        height: 70vh;
+    }
+
+    .slider {
+        min-width: 33.33%;
+    }
+}
+
+@media (max-width: 590px) {
+    .slider {
+        min-width: 50%;
+    }
+}
+
+@media (max-width: 520px) {
+    .conferencia-prensa {
+        flex-direction: column;
+    }
+
+    .contenedor-1-prensa,
+    .contenedor-2-prensa {
         width: 100%;
     }
 }
